@@ -1,73 +1,73 @@
-# Welcome to your Lovable project
+# The Ninth House - Cafe Website
 
-## Project info
+## About
 
-**URL**: https://lovable.dev/projects/435a9877-dacb-4789-b0a2-0cdabee859cf
+The Ninth House is an aesthetic cafe in Sector 144, Noida, offering artisan coffee, gourmet food, live music, and Ghazal nights. This is the official website showcasing our menu, events, and gallery.
 
-## How can I edit this code?
+✨ Aesthetic vibes in green & white 🌿
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/435a9877-dacb-4789-b0a2-0cdabee859cf) and start prompting.
+- Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd "The Ninth House"
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## Technologies Used
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Fast build tool and dev server
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI library
+- **React Router** - Client-side routing
+- **shadcn/ui** - Beautiful UI components
+- **Tailwind CSS** - Utility-first CSS framework
+- **Lucide React** - Icon library
 
-## How can I deploy this project?
+## Features
 
-Simply open [Lovable](https://lovable.dev/projects/435a9877-dacb-4789-b0a2-0cdabee859cf) and click on Share -> Publish.
+- 🏠 Home page with hero section
+- 🍽️ Menu showcase with category filters
+- 🎵 Events page for Ghazal nights and live music
+- 📸 Gallery section
+- 📱 Fully mobile-responsive design
+- ⚡ Auto-scroll on page navigation
+- 🎨 Custom color scheme (sage green & golden amber)
 
-## Can I connect a custom domain to my Lovable project?
+## Build for Production
 
-Yes, you can!
+```sh
+npm run build
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+The built files will be in the `dist` directory.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Preview Production Build
+
+```sh
+npm run preview
+```
+
+## Contact
+
+📍 Sector 144, Noida  
+🐦 Twitter: @theninthousenoida  
+📷 Instagram: @theninthousenoida
